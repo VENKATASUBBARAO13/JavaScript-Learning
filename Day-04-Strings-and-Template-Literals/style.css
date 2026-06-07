@@ -1,0 +1,106 @@
+﻿/* Shared beginner-friendly styles for this lesson page. */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #1f2937;
+}
+
+.container {
+    width: min(850px, 92%);
+    margin: 40px auto;
+    padding: 28px;
+    background-color: #ffffff;
+    border: 1px solid #d8e0ea;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #1d4ed8;
+}
+
+.lesson-topic {
+    font-weight: bold;
+    color: #047857;
+}
+
+.panel,
+.todo-form,
+.todo-list {
+    margin-top: 20px;
+    padding: 18px;
+    background-color: #eef6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+}
+
+label,
+input,
+button,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+.success {
+    color: #047857;
+    font-weight: bold;
+}
+
+.error {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+.todo-list li button {
+    width: auto;
+    margin-top: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6b7280;
+}
